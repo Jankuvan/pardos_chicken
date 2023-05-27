@@ -1,0 +1,202 @@
+
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iProvider | Inicio de sesi&oacute;n</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="/pardos.iprovider/Content/plugins/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/pardos.iprovider/Content/plugins/font-awesome/css/font-awesome.min.css" />
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="/pardos.iprovider/Content/plugins/Ionicons/css/ionicons.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="/pardos.iprovider/Content/dist/css/AdminLTE.min.css" />
+    <!-- iCheck -->
+    <link rel="stylesheet" href="/pardos.iprovider/Content/plugins/iCheck/square/blue.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <style type="text/css">
+        /*body {
+            background-image:url('../../Content/app/img/background1.jpg');
+            background-size:cover;
+        }*/
+
+    </style>
+</head>
+<body class="hold-transition login-page" style="height:auto;background-image:url('/pardos.iprovider/Content/app/img/fondo-pardos.png');background-size:cover;">
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="modalComunicado" data-backdrop="static" data-keyboard="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">IPROVIDER - Comunicado</h4>
+                </div>
+                <div class="modal-body" style="width:100%; height:900px;">
+
+                    
+                        <embed src="/pardos.iprovider/Content/app/files/comunicados/862e9c52-066d-43f3-af06-030310075752.pdf" type="application/pdf" style="width:100%; height:100%;" />
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="modalSociedades" data-backdrop="static" data-keyboard="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">IPROVIDER - Licitaciones</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-danger">
+                        <h4><i class="icon fa fa-building-o"></i> Sociedades del portal</h4>
+                        El portal gestiona los datos de las sociedades listadas a continuación
+                    </div>
+                    <div style="margin-top:15px;">
+                        <table class="table table-striped">
+                            <tr>
+                                <th></th>
+                                <th>RUC</th>
+                                <th>Raz&oacute;n social</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>20511855366</td>
+                                <td>PARDO´S CHICKEN S.A.C.</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>20381788491</td>
+                                <td>SERVICIOS DE FRANQUICIA PARDOS SAC</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>20510885229</td>
+                                <td>SANGUCHES DEL PERU SAC</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>20511414408</td>
+                                <td>INVERSIONES DT1 SAC</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>20538715931</td>
+                                <td>INVERSIONES M6 SAC</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>20537995581</td>
+                                <td>INVERSIONES M5 SAC</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>20553596441</td>
+                                <td>CHIFAS DEL PERU SAC</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>20553070245</td>
+                                <td>WU RESTAURANTES SAC</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label>
+                                <input type="checkbox" id="chkNoMostrar" />
+                                &nbsp;No mostrar de nuevo
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="login-box">
+        <div class="login-logo" style="/*background-color:#ffffff;*/">
+            
+            <img alt="" height="150" src="/pardos.iprovider/Content/app/img/logo-pardos.png" />
+        </div>
+        <!-- /.login-logo -->
+        <div class="login-box-body">
+            <p class="login-box-msg">Ingreso a iProvider</p>
+
+            <div class="form-group has-feedback">
+                <input type="text" class="form-control" placeholder="Usuario" id="txtUsuario" maxlength="12">
+                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input type="password" class="form-control" placeholder="Password" id="txtContraseina">
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+            </div>
+            <div class="row">
+                <div class="col-xs-8">
+                    <div class="checkbox icheck">
+                        <label>
+                            <input type="checkbox" id="chkRecuerda"> Recu&eacute;rdame
+                        </label>
+                    </div>
+                </div>
+                <!-- /.col -->
+                <div class="col-xs-4">
+                    <button type="button" class="btn btn-success btn-block btn-flat" id="btnIngresar">Ingresar</button>
+                </div>
+                <!-- /.col -->
+            </div>
+
+            <!-- /.social-auth-links -->
+            <br />
+            
+            <a class="pull-left" href="/pardos.iprovider/Pardos/Seguridad/Reestablecer">Olvid&#233; mi contrase&#241;a</a>
+            
+            <a class="pull-right" href="/pardos.iprovider/Pardos/RegisterProvider">Quiero registrarme</a>
+            <br />
+            <br />
+            <a href="#" id="linkinfo"><i class="fa fa-info-circle"></i>&nbsp;&nbsp; Sociedades a las que aplica el portal</a>
+        </div>
+        <!-- /.login-box-body -->
+        <div style="margin-top:10px;">
+            <div class="alert alert-dismissible " id="panelMensaje" style="display: none;">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <h4></h4>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /.login-box -->
+    <!-- jQuery 3 -->
+    <script type="text/javascript" src="/pardos.iprovider/Content/plugins/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script type="text/javascript" src="/pardos.iprovider/Content/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- iCheck -->
+    <script type="text/javascript" src="/pardos.iprovider/Content/plugins/iCheck/icheck.min.js"></script>
+    <!-- pdfobject -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js" integrity="sha512-4ze/a9/4jqu+tX9dfOqJYSvyYd5M6qum/3HpCLr+/Jqf0whc37VUbkpNGHR7/8pSnCFw47T1fmIpwBV7UySh3g==" crossorigin="anonymous"></script>
+
+    <!--Custom-->
+    <script type="text/javascript" src="/pardos.iprovider/Areas/Pardos/Content/app/js/login-script.js?version=2"></script>
+    <script type="text/javascript">
+        urlValida = '/pardos.iprovider/Pardos/Seguridad/ValidarUsuario';
+        urlPrincipal = '/pardos.iprovider/Pardos/Principal';
+        urlResetPassword = '/pardos.iprovider/Pardos/Usuarios/ResetPassword';
+        urlComunicado = '/pardos.iprovider/Areas/Pardos/Content/files/manuales/comunicado cierre 2019 mini.pdf';
+        mostrarCom = 'True';
+    </script>
+</body>
+</html>
